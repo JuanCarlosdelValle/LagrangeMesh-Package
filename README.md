@@ -95,7 +95,7 @@ default the mass is set m = 1.
         `Out[1]:= Hermite_15_WP_20.dat`  
         `Hermite_15_WP_20_Weights.dat` 
                 
-As Output, shown in Out[1], the program prints on screen the name of
+As Output, shown in `Out[1]`, the program prints on screen the name of
 two files that were generated and stored. Meshes and weights are 
 automatically stored according to the following tree diagram:
 
@@ -111,52 +111,52 @@ automatically stored according to the following tree diagram:
      `-- Legendre
 
 All directories inside MyDirectory will be automatically created on the first use
-of the command BuildMesh.       
+of the command `BuildMesh`.       
 
 
-(2) AvailableMeshQ. By specifying Type, Dimension, and WorkingPrecision, it delivers True on 
+(2) `AvailableMeshQ`. By specifying `Type`, `Dimension`, and `WorkingPrecision`, it delivers True on 
                     screen if the mesh was previously constructed. Otherwise, the Output
                     is False. In addition, it can deliver an ordered table that shows
                     all stored meshes. A basic example:
 
- In[2]:= AvailableMeshQ["Hermite",WorkingPrecision->20,Dimension->15]
-Out[2]:= True
+        `In[2]:= AvailableMeshQ["Hermite",WorkingPrecision->20,Dimension->15]`
+        `Out[2]:= True`
                                  
 
 
 
-(3) LagMeshEigenvalues. It computes the eigenvalues for a given potential defined on
+(3) `LagMeshEigenvalues`. It computes the eigenvalues for a given potential defined on
                         an interval. The number of mesh points must be specified as 
-                        well as the requested lowest eigenvalues. If WorkingPrecision
-                        is not specified, calculations are performed with MachinePrecision.
+                        well as the requested lowest eigenvalues. If `WorkingPrecision`
+                        is not specified, calculations are performed with `MachinePrecision`.
                         A basic example is presented below: the first three eigenvalues
                         of the harmonic oscillator defined on the whole real line
-                        calculated with 15 mesh points and WorkinPrecision->20.
+                        calculated with 15 mesh points and `WorkinPrecision->20`.
 
- In[3]:= LagMeshEigenvalues[1/2*x^2,{x,-Infinity,Infinity},3,15,WorkingPrecision->20]
-Out[3]:= {0.500000000000000000,1.50000000000000000,2.50000000000000000}
+         In[3]:= LagMeshEigenvalues[1/2*x^2,{x,-Infinity,Infinity},3,15,WorkingPrecision->20]
+        Out[3]:= {0.500000000000000000,1.50000000000000000,2.50000000000000000}
           
  
 
-(4) LagMeshEigenfunctions. It computes the eigenfunctions for a given potential defined on
+(4) `LagMeshEigenfunctions`. It computes the eigenfunctions for a given potential defined on
                            an interval. The number of mesh points must be specified as 
-                           well as the requested lowest eigenvalues. If WorkingPrecision
-                           is not specified, calculations are performed with MachinePrecision.
+                           well as the requested lowest eigenvalues. If `WorkingPrecision`
+                           is not specified, calculations are performed with `MachinePrecision`.
                            A basic example is presented below: the first eigenfunction 
                            of the harmonic oscillator defined on the whole real line
-                           calculated with 15 mesh points and WorkinPrecision->20.
+                           calculated with 15 mesh points and `WorkinPrecision->20`.
 
- In[4]:= LagMeshEigenfunctions[1/2*x^2,{x,-Infinity,Infinity},1,15,WorkingPrecision->20]
-Out[4]:= -0.75112554446494248283 E^(-(x^2/2))
+        In[4]:= LagMeshEigenfunctions[1/2*x^2,{x,-Infinity,Infinity},1,15,WorkingPrecision->20]
+        Out[4]:= -0.75112554446494248283 E^(-(x^2/2))
 
-(5) LagMeshEigensystem. It computes the eigenvalues and eigenfunctions simultaneously 
+(5) `LagMeshEigensystem`. It computes the eigenvalues and eigenfunctions simultaneously 
                         for a given potential defined on an interval. The number of mesh
                         points must be specified as well as the requested lowest eigenvalues.
-                        If WorkingPrecision is not specified, calculations are performed with
-                        MachinePrecision. A basic example is presented below: the first
+                        If `WorkingPrecision` is not specified, calculations are performed with
+                        `MachinePrecision`. A basic example is presented below: the first
                         eigenvalue and eigenfunction of the harmonic oscillator defined
                         on the whole real line calculated with 15 mesh points and
-                        WorkinPrecision->20.
+                        `WorkinPrecision->20`.
 
  In[5]:= LagMeshEigensystem[1/2*x^2,{x,-Infinity,Infinity},1,15,WorkingPrecision->20]
 Out[5]:= {0.500000000000000000, -0.75112554446494248283 E^(-(x^2/2))}
