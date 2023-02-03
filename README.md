@@ -15,9 +15,9 @@ In turn, the basic reference of the package can be found in
 "Solving the One-Dimensional Time-Independent Schrödinger Equation with 
       High Accuracy: The LagrangeMesh Mathematica Package"
                     by J.C. del Valle, 2022
-                     jcdvaller@gmail.com
+                     (https://arxiv.org/abs/2208.14340)
 
-              (https://arxiv.org/abs/2208.14340)
+             
 
 
 
