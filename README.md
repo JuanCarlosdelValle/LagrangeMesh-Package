@@ -64,9 +64,8 @@ This is a simple alternative that requires no
    in the same directory. Each time the kernel is restarted, package has to be
    loaded as indicated.
 
-===
 
-(*COMMANDS*)
+## Commands
 
 Once installed/loaded, the package provides the user with five commands:
 
@@ -79,9 +78,8 @@ LagMeshEigenfunctions  --   Computes eigenfunctions
 LagMeshEigensystem     --   Computes eigenvalues and eigenfunctions
 
 
-===
 
-(*USAGE*)
+## Usage
 
 Based on particular examples, we describe the usage of each command. Input and Output
 are shown in Mathematica's style. We assume that all evaluations are performed from the
@@ -163,11 +161,13 @@ Out[4]:= -0.75112554446494248283 E^(-(x^2/2))
  In[5]:= LagMeshEigensystem[1/2*x^2,{x,-Infinity,Infinity},1,15,WorkingPrecision->20]
 Out[5]:= {0.500000000000000000, -0.75112554446494248283 E^(-(x^2/2))}
 
-===
 
+
+
+
+## Authors
 LagrangeMesh 1.0 (2022):
-
 (C) J.C. del Valle, Version 1.0 (September,2022)  
-    (Written in Mathematica 13 and tested in version 12 and 13)
+(Written in Mathematica 13 and tested in version 12 and 13)
 
 Please report any malfunction of the package to jcdvaller@gmail.com
