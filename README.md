@@ -7,6 +7,8 @@ realizes numerically the Lagrange Mesh Method (LMM) in Mathematica.
 The basic reference of the method is presented in:
 
               D. Baye, Phys. Rep. 565, 2015.
+              
+https://doi.org/10.1016/j.physrep.2014.11.006
 
 In turn, the basic reference of the package can be found in
 
@@ -21,11 +23,11 @@ In turn, the basic reference of the package can be found in
 
 ## NNotation
 
-   E: eigenvalues/energy
-   m: mass of the particle
-   x: real variable
-y(x): eigenfunction/wavefunction in variable x
-V(x): confining potential
+   *E: eigenvalues/energy
+   *m: mass of the particle
+   *x: real variable
+*y(x): eigenfunction/wavefunction in variable x
+*V(x): confining potential
 
 
 
