@@ -17,11 +17,11 @@ Wolfram Mathematica 12,13,...
 
 ## Notation
 
-   * E: eigenvalues/energy
-   * m: mass of the particle
-   * x: real variable
-* y(x): eigenfunction/wavefunction in variable x
-* V(x): confining potential
+   * $E$: eigenvalues/energy
+   * $m$: mass of the particle
+   * $x$: real variable
+* $y(x)$: eigenfunction/wavefunction in variable x
+* $V(x)$: confining potential
 
 
 
