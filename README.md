@@ -99,16 +99,7 @@ As Output, shown in `Out[1]`, the program prints on screen the name of
 two files that were generated and stored. Meshes and weights are 
 automatically stored according to the following tree diagram:
 
- MyDirectory
- |-- MyWorkNotebook.nb
- `-- Meshes
-     |-- Hermite
-     |   |-- MeshPoints
-     |   |   |-- Hermite_15_WP_20.dat
-     |   `-- Weights
-     |       `-- Hermite_15_WP_20_Weights.dat
-     |-- Laguerre 
-     `-- Legendre
+
 
 All directories inside MyDirectory will be automatically created on the first use
 of the command `BuildMesh`.       
