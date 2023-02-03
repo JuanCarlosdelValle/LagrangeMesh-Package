@@ -72,10 +72,10 @@ This is a simple alternative that requires no
 
 
 * BuildMesh: Construction of mesh points and weights            
-* AvailableMeshQ: Check available meshes and weights
+* AvailableMeshQ: Checks available meshes and weights
 * LagMeshEigenvalues: Computes eigenvalues
 * LagMeshEigenfunctions: Computes eigenfunctions
-* LagMeshEigensystem     --   Computes eigenvalues and eigenfunctions
+* LagMeshEigensystem: Computes eigenvalues and eigenfunctions
 
 
 
