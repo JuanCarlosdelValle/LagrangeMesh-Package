@@ -90,10 +90,10 @@ default the mass is set m = 1.
 (1) `BuildMesh`. It constructs the requested mesh points and weights for a given type 
                of classical orthogonal polynomial. (Legendre,Laguerre,Hermite).
                Basic example: 
-
-        `In[1]:= BuildMesh["Hermite",15,WorkingPrecision->20,Weights->True]`
-        `Out[1]:= Hermite_15_WP_20.dat`  
-        `Hermite_15_WP_20_Weights.dat` 
+              
+        In[1]:= BuildMesh["Hermite",15,WorkingPrecision->20,Weights->True]
+        Out[1]:= Hermite_15_WP_20.dat
+        Hermite_15_WP_20_Weights.dat
                 
 As Output, shown in `Out[1]`, the program prints on screen the name of
 two files that were generated and stored. Meshes and weights are 
@@ -119,8 +119,8 @@ of the command `BuildMesh`.
                     is False. In addition, it can deliver an ordered table that shows
                     all stored meshes. A basic example:
 
-        `In[2]:= AvailableMeshQ["Hermite",WorkingPrecision->20,Dimension->15]`
-        `Out[2]:= True`
+        In[2]:= AvailableMeshQ["Hermite",WorkingPrecision->20,Dimension->15]
+        Out[2]:= True
                                  
 
 
@@ -158,8 +158,8 @@ of the command `BuildMesh`.
                         on the whole real line calculated with 15 mesh points and
                         `WorkinPrecision->20`.
 
- In[5]:= LagMeshEigensystem[1/2*x^2,{x,-Infinity,Infinity},1,15,WorkingPrecision->20]
-Out[5]:= {0.500000000000000000, -0.75112554446494248283 E^(-(x^2/2))}
+        In[5]:= LagMeshEigensystem[1/2*x^2,{x,-Infinity,Infinity},1,15,WorkingPrecision->20]
+        Out[5]:= {0.500000000000000000, -0.75112554446494248283 E^(-(x^2/2))}
 
 
 
