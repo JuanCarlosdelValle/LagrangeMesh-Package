@@ -4,13 +4,7 @@
 This is the README file for the Mathematica package LagrangeMesh
 version 1.0 (2022) contained in the file LagrangeMesh.wl. LagrangeMesh 
 realizes numerically the Lagrange Mesh Method (LMM) in Mathematica.
-The basic reference of the method is presented in:
-
-              D. Baye, Phys. Rep. 565, 2015.
-              
-https://doi.org/10.1016/j.physrep.2014.11.006
-
-In turn, the basic reference of the package can be found in
+The basic reference of the package can be found in
 
 "Solving the One-Dimensional Time-Independent Schrödinger Equation with 
       High Accuracy: The LagrangeMesh Mathematica Package"
