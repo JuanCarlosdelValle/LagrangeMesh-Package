@@ -67,15 +67,15 @@ This is a simple alternative that requires no
 
 ## Commands
 
-Once installed/loaded, the package provides the user with five commands:
+*Once installed orloaded, the package provides the user with five commands:
 
-Name                                    Goal
+*Name                                    Goal
 
-BuildMesh              --   Construction of mesh points and weights            
-AvailableMeshQ         --   Check available meshes and weights
-LagMeshEigenvalues     --   Computes eigenvalues
-LagMeshEigenfunctions  --   Computes eigenfunctions
-LagMeshEigensystem     --   Computes eigenvalues and eigenfunctions
+*BuildMesh              --   Construction of mesh points and weights            
+*AvailableMeshQ         --   Check available meshes and weights
+*LagMeshEigenvalues     --   Computes eigenvalues
+*LagMeshEigenfunctions  --   Computes eigenfunctions
+*LagMeshEigensystem     --   Computes eigenvalues and eigenfunctions
 
 
 
