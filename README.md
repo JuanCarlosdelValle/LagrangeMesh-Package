@@ -166,7 +166,8 @@ of the command `BuildMesh`.
 
 
 ## Authors
-LagrangeMesh 1.0 (2022):
+LagrangeMesh 1.0 (2022):  
+
 (C) J.C. del Valle, Version 1.0 (September,2022)  
 (Written in Mathematica 13 and tested in version 12 and 13)
 
