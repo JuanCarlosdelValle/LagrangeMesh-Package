@@ -1,10 +1,8 @@
 # LagrangeMesh-Package
 
 ## Description
-This is the README file for the Mathematica package LagrangeMesh
-version 1.0 (2022) contained in the file LagrangeMesh.wl. LagrangeMesh 
-realizes numerically the Lagrange Mesh Method (LMM) in Mathematica.
-The basic reference of the package can be found in
+LagrangeMesh 1.0 is a Mathematica package devoted to solving numerically the one-dimensional time-independent Schrödinger equation with Dirichlet boundary conditions for an arbitrary one-dimensional domain.
+A complete description of the package can be found in
 
 "Solving the One-Dimensional Time-Independent Schrödinger Equation with 
       High Accuracy: The LagrangeMesh Mathematica Package"
