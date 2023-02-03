@@ -9,13 +9,13 @@ The basic reference of the package can be found in
 "Solving the One-Dimensional Time-Independent Schrödinger Equation with 
       High Accuracy: The LagrangeMesh Mathematica Package"
                     by J.C. del Valle, 2022
-                     (https://arxiv.org/abs/2208.14340)
+                     (https://arxiv.org/abs/2208.14340).
 
              
+### Prerequisites
+Wolfram Mathematica 12,13,...
 
-
-
-## NNotation
+## Notation
 
    * E: eigenvalues/energy
    * m: mass of the particle
