@@ -99,7 +99,7 @@ As Output, shown in `Out[1]`, the program prints on screen the name of
 two files that were generated and stored. Meshes and weights are 
 automatically stored according to the following tree diagram:
 
-
+[DirectoryTree-eps-converted-to.pdf](https://github.com/JuanCarlosdelValle/LagrangeMesh-Package/files/10578785/DirectoryTree-eps-converted-to.pdf)
 
 All directories inside MyDirectory will be automatically created on the first use
 of the command `BuildMesh`.       
