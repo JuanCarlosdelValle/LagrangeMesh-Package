@@ -71,11 +71,11 @@ This is a simple alternative that requires no
 
 
 
-* BuildMesh: Construction of mesh points and weights            
-* AvailableMeshQ: Checks available meshes and weights
-* LagMeshEigenvalues: Computes eigenvalues
-* LagMeshEigenfunctions: Computes eigenfunctions
-* LagMeshEigensystem: Computes eigenvalues and eigenfunctions
+* `BuildMesh`: Construction of mesh points and weights            
+* `AvailableMeshQ`: Checks available meshes and weights
+* `LagMeshEigenvalues`: Computes eigenvalues
+* `LagMeshEigenfunctions`: Computes eigenfunctions
+* `LagMeshEigensystem`: Computes eigenvalues and eigenfunctions
 
 
 
@@ -87,13 +87,13 @@ notebook called MyWorkNotebook.nb that is contained in a folder called MyDirecto
 default the mass is set m = 1.
 
 
-(1) BuildMesh. It constructs the requested mesh points and weights for a given type 
+(1) `BuildMesh`. It constructs the requested mesh points and weights for a given type 
                of classical orthogonal polynomial. (Legendre,Laguerre,Hermite).
                Basic example: 
 
- In[1]:= BuildMesh["Hermite",15,WorkingPrecision->20,Weights->True]
-Out[1]:= Hermite_15_WP_20.dat
-         Hermite_15_WP_20_Weights.dat 
+ `In[1]:= BuildMesh["Hermite",15,WorkingPrecision->20,Weights->True]`
+`Out[1]:= Hermite_15_WP_20.dat`
+         `Hermite_15_WP_20_Weights.dat` 
                 
                As Output, shown in Out[1], the program prints on screen the name of
                two files that were generated and stored. Meshes and weights are 
