@@ -15,7 +15,7 @@ Wolfram Mathematica 12,13,...
 
 ## Notation
 
-   * $E$: eigenvalues/energy
+   * $E$: eigenvalue/energy
    * $m$: mass of the particle
    * $x$: real variable
 * $y(x)$: eigenfunction/wavefunction in variable x
@@ -32,7 +32,7 @@ for an arbitrary real interval $(a,b)$.
 
 ===
 
-(*INSTALLATION*)
+##Instalation
 
 0. Download the file LagrangeMesh.wl
 
