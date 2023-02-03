@@ -92,7 +92,8 @@ default the mass is set m = 1.
                Basic example: 
 
  `In[1]:= BuildMesh["Hermite",15,WorkingPrecision->20,Weights->True]`
-`Out[1]:= Hermite_15_WP_20.dat`
+`Out[1]:= Hermite_15_WP_20.dat`  
+
          `Hermite_15_WP_20_Weights.dat` 
                 
                As Output, shown in Out[1], the program prints on screen the name of
