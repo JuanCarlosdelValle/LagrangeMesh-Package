@@ -23,11 +23,11 @@ In turn, the basic reference of the package can be found in
 
 ## NNotation
 
-   *E: eigenvalues/energy
-   *m: mass of the particle
-   *x: real variable
-*y(x): eigenfunction/wavefunction in variable x
-*V(x): confining potential
+   * E: eigenvalues/energy
+   * m: mass of the particle
+   * x: real variable
+* y(x): eigenfunction/wavefunction in variable x
+* V(x): confining potential
 
 
 
