@@ -27,11 +27,8 @@ Wolfram Mathematica 12,13,...
 LagrangeMesh 1.0 is a Mathematica package devoted to solving numerically 
 the one-dimensional time-independent Schrödinger equation with Dirichlet
 boundary conditions:
-
-**The Main Object**
-     $$-\frac{1}{2m}\,y''(x)+V(x)\,y(x)=E\,y(x)\  , y(0)=y(b)=0\  , \qquad      a < x < b ,$$
-
-for an arbitrary real interval (a,b). 
+     $$-\frac{1}{2m}\, y''(x)+V(x)\,y(x)=E\,y(x)\ ,\qquad  y(0)=y(b)=0\  , \qquad      a < x < b ,$$
+for an arbitrary real interval $(a,b)$. 
 
 ===
 
