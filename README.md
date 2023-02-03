@@ -31,7 +31,7 @@ boundary conditions:
 for an arbitrary real interval $(a,b)$. 
 
 
-## Instalation
+## Installation
 
 0. Download the file LagrangeMesh.wl
 
