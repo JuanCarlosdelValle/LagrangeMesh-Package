@@ -30,9 +30,8 @@ boundary conditions:
      $$-\frac{1}{2m} y''(x)+V(x)y(x)=Ey(x)\ ,\qquad  y(0)=y(b)=0\  , \qquad      a < x < b ,$$
 for an arbitrary real interval $(a,b)$. 
 
-===
 
-##Instalation
+## Instalation
 
 0. Download the file LagrangeMesh.wl
 
