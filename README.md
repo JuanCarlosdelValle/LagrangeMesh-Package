@@ -35,7 +35,9 @@ for an arbitrary real interval $(a,b)$.
 
 0. Download the file LagrangeMesh.wl
 
-A. *Full Installation*. Open Mathematica, go to File -> Install.
+1. There two options: 
+
+(A) *Full Installation*. Open Mathematica, go to File -> Install.
    A window will prompt you for more information. Fill in as follows:
 
   i. Type of Item to Install -> Package
@@ -49,7 +51,7 @@ in the command line and evaluate the cell. Each time the kernel is restarted,
 the package has to be loaded as indicated.
 
 
-B. *Loading the Package*. This is a simple alternative that requires no
+(B) *Loading the Package*. This is a simple alternative that requires no
    full installation. Loading the package is achieved by evaluating
    <<"path/LagrangeMesh.wl" in the command line of the notebook
    we want to work with. The explicit form of path is found evaluating
